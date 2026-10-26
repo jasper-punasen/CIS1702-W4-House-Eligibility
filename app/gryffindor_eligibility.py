@@ -16,3 +16,5 @@ def check_gryffindor_eligibility(bravery, loyalty, ambition):
     # (>, <, ==, >=, <=) with and / or.
     if bravery >= 7 and (loyalty >= 5 or ambition >= 5):
       return "Gryffindor material!"
+    else:
+      return "Not Gryffindor material."
